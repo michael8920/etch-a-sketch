@@ -34,7 +34,7 @@ initialGrid(16);
 function newGrid () {
     container.innerHTML = ""; // Clear our container from the initial gridItems 
     gridItems.length = 0; // Clear our array from initial elements
-    let userGrid = prompt('How many squares per side do you want your new grid to be');
+    let userGrid = prompt('How many squares per side do you want your new grid to be?');
 
     for(let i = 0; i < userGrid * userGrid; i++) {
         gridItems[i] = document.createElement('div');
